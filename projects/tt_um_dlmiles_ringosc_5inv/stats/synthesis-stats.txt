@@ -1,0 +1,23 @@
+96. Printing statistics.
+
+=== tt_um_dlmiles_ringosc_5inv ===
+
+   Number of wires:                 46
+   Number of wire bits:             81
+   Number of public wires:          46
+   Number of public wire bits:      81
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 62
+     gf180mcu_fd_sc_mcu7t5v0__and3_1      1
+     gf180mcu_fd_sc_mcu7t5v0__buf_1     16
+     gf180mcu_fd_sc_mcu7t5v0__dffrnq_1     16
+     gf180mcu_fd_sc_mcu7t5v0__inv_1     21
+     gf180mcu_fd_sc_mcu7t5v0__tieh      8
+
+   Chip area for module '\tt_um_dlmiles_ringosc_5inv': 1681.523200
+     of which used for sequential elements: 1194.188800 (71.02%)
+
