@@ -1,0 +1,50 @@
+118. Printing statistics.
+
+=== tt_um_rejunity_vga_logo ===
+
+   Number of wires:                721
+   Number of wire bits:            756
+   Number of public wires:          59
+   Number of public wire bits:      94
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                737
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     24
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     14
+     gf180mcu_fd_sc_mcu7t5v0__and4_1      2
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     10
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1     53
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1      5
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     10
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      2
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1     42
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1     51
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2      5
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1     96
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1     30
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1      7
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1     94
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     34
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1      8
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1      6
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1     68
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1      5
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1     17
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1      8
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1      5
+     gf180mcu_fd_sc_mcu7t5v0__oai33_1      2
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     13
+     gf180mcu_fd_sc_mcu7t5v0__or3_1      7
+     gf180mcu_fd_sc_mcu7t5v0__or4_1      3
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     15
+     gf180mcu_fd_sc_mcu7t5v0__xnor3_1     10
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1     51
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1     24
+
+   Chip area for module '\tt_um_rejunity_vga_logo': 16049.107200
+     of which used for sequential elements: 3246.700800 (20.23%)
+
