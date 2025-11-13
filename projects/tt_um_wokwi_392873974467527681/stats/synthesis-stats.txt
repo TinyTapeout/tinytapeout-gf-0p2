@@ -1,0 +1,149 @@
+97. Printing statistics.
+
+=== and_cell ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of ports:                  3
+   Number of port bits:              3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     gf180mcu_fd_sc_mcu7t5v0__and2_1      1
+
+   Chip area for module '\and_cell': 17.561600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== dff_cell ===
+
+   Number of wires:                  4
+   Number of wire bits:              4
+   Number of public wires:           4
+   Number of public wire bits:       4
+   Number of ports:                  4
+   Number of port bits:              4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      1
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1      1
+
+   Chip area for module '\dff_cell': 72.441600
+     of which used for sequential elements: 63.660800 (87.88%)
+
+=== mux_cell ===
+
+   Number of wires:                  4
+   Number of wire bits:              4
+   Number of public wires:           4
+   Number of public wire bits:       4
+   Number of ports:                  4
+   Number of port bits:              4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2      1
+
+   Chip area for module '\mux_cell': 32.928000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== not_cell ===
+
+   Number of wires:                  2
+   Number of wire bits:              2
+   Number of public wires:           2
+   Number of public wire bits:       2
+   Number of ports:                  2
+   Number of port bits:              2
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      1
+
+   Chip area for module '\not_cell': 8.780800
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== or_cell ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of ports:                  3
+   Number of port bits:              3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     gf180mcu_fd_sc_mcu7t5v0__or2_1      1
+
+   Chip area for module '\or_cell': 17.561600
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tt_um_wokwi_392873974467527681 ===
+
+   Number of wires:                 77
+   Number of wire bits:            112
+   Number of public wires:          77
+   Number of public wire bits:     112
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 89
+     and_cell                       37
+     dff_cell                        4
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      7
+     gf180mcu_fd_sc_mcu7t5v0__tieh      1
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+     mux_cell                        4
+     not_cell                        4
+     or_cell                        16
+
+   Area for cell type \dff_cell is unknown!
+   Area for cell type \mux_cell is unknown!
+   Area for cell type \not_cell is unknown!
+   Area for cell type \and_cell is unknown!
+   Area for cell type \or_cell is unknown!
+
+   Chip area for module '\tt_um_wokwi_392873974467527681': 241.472000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+   tt_um_wokwi_392873974467527681      1
+     and_cell                       37
+     dff_cell                        4
+     mux_cell                        4
+     not_cell                        4
+     or_cell                        16
+
+   Number of wires:                276
+   Number of wire bits:            311
+   Number of public wires:         276
+   Number of public wire bits:     311
+   Number of ports:                207
+   Number of port bits:            242
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 93
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     37
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      7
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      8
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1      4
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2      4
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     16
+     gf180mcu_fd_sc_mcu7t5v0__tieh      1
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+
+   Chip area for top module '\tt_um_wokwi_392873974467527681': 1628.838400
+     of which used for sequential elements: 0.000000 (0.00%)
+
