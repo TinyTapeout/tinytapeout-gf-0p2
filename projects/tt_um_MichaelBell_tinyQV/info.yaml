@@ -1,0 +1,111 @@
+# Tiny Tapeout project information
+project:
+  title:        "TinyQV Risc-V SoC"      # Project title
+  author:       "Michael Bell"      # Your name
+  discord:      "rebelmike"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A Risc-V SoC for Tiny Tapeout"      # One line description of what your project does
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     24000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 340x160 uM.
+  tiles: "3x4"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_MichaelBell_tinyQV"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "project.v"
+    - "tinyQV/cpu/tinyqv.v"
+    - "tinyQV/cpu/alu.v"
+    - "tinyQV/cpu/buffer.v"
+    - "tinyQV/cpu/core.v"
+    - "tinyQV/cpu/counter.v"
+    - "tinyQV/cpu/cpu.v"
+    - "tinyQV/cpu/decode.v"
+    - "tinyQV/cpu/mem_ctrl.v"
+    - "tinyQV/cpu/qspi_ctrl.v"
+    - "tinyQV/cpu/qspi_setup.v"
+    - "tinyQV/cpu/register.v"
+    - "tinyQV/cpu/latch_reg.v"
+    - "tinyQV/cpu/time.v"
+    - "tinyQV/cpu/internal_ram.v"
+    - "tinyQV/peri/uart/uart_tx.v"
+    - "peripherals.v"
+    - "peri_byte_empty.v"
+    - "peri_full_empty.v"
+    - "user_peripherals/uart/peri_uart.v"
+    - "user_peripherals/uart/uart_rx.v"
+    - "user_peripherals/uart/uart_tx.v"
+    - "user_peripherals/spi.v"
+    - "user_peripherals/game_pmod.v"
+    - "user_peripherals/matt_pwm/matt_pwm.v"
+    - "user_peripherals/matt_pwm/pwm_strobe_gen.v"
+    - "user_peripherals/matt_pwm/pwm.v"
+    - "user_peripherals/tqvp_laurie_dwarf_line_table_accelerator.sv"
+    - "user_peripherals/pulse_transmitter/peripheral.v"
+    - "user_peripherals/pulse_transmitter/carrier.v"
+    - "user_peripherals/pulse_transmitter/countdown_timer.v"
+    - "user_peripherals/pulse_transmitter/delay_1.v"
+    - "user_peripherals/pulse_transmitter/delay_2.v"
+    - "user_peripherals/pulse_transmitter/simple_falling_edge_detector.v"
+    - "user_peripherals/pulse_transmitter/simple_rising_edge_detector.v"
+    - "user_peripherals/ubcd/ascii.v"
+    - "user_peripherals/ubcd/cistercian.v"
+    - "user_peripherals/ubcd/kaktovik.v"
+    - "user_peripherals/ubcd/peripheral.v"
+    - "user_peripherals/ubcd/ubcd.v"
+    - "user_peripherals/CORDIC/tqvp_CORDIC.v"
+    - "user_peripherals/CORDIC/CORDIC_angles_ROM_comb.v"
+    - "user_peripherals/CORDIC/CORDIC_atanh_ROM_comb.v"
+    - "user_peripherals/CORDIC/CORDIC_iteration.v"
+    - "user_peripherals/CORDIC/CORDIC.v"
+    - "user_peripherals/CORDIC/defines.v"
+    - "user_peripherals/pwl_synth/pwl_synth.sv"
+    - "user_peripherals/pwl_synth/pwl_synth_memory.sv"
+    - "user_peripherals/AY8913/attenuation.v"
+    - "user_peripherals/AY8913/envelope.v"
+    - "user_peripherals/AY8913/noise.v"
+    - "user_peripherals/AY8913/pwm.v"
+    - "user_peripherals/AY8913/signal_edge.v"
+    - "user_peripherals/AY8913/tone.v"
+    - "user_peripherals/AY8913/ay8913.v"
+    - "user_peripherals/AY8913/peripheral.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+pinout:
+  # Inputs
+  ui[0]: "Interrupt 0"
+  ui[1]: "Interrupt 1"
+  ui[2]: "SPI MISO"
+  ui[3]: "1 MHz clock for time"
+  ui[4]: "Game controller latch"
+  ui[5]: "Game controller clock"
+  ui[6]: "Game controller data"
+  ui[7]: "UART RX"
+
+  # Outputs
+  uo[0]: "UART TX"
+  uo[1]: "UART RTS"
+  uo[2]: "SPI DC"
+  uo[3]: "SPI MOSI"
+  uo[4]: "SPI CS"
+  uo[5]: "SPI SCK"
+  uo[6]: "Debug UART TX"
+  uo[7]: "Debug signal / PWM"
+
+  # Bidirectional pins
+  uio[0]: "Flash CS"
+  uio[1]: "SD0"
+  uio[2]: "SD1"
+  uio[3]: "SCK"
+  uio[4]: "SD2"
+  uio[5]: "SD3"
+  uio[6]: "RAM A CS"
+  uio[7]: "RAM B CS / PWM"
+
+# Do not change!
+yaml_version: 6
