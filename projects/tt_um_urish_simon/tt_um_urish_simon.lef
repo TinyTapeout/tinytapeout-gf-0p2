@@ -93,7 +93,7 @@ MACRO tt_um_urish_simon
     ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
-        RECT 312.890 159.720 313.190 160.720 ;
+        RECT 330.810 159.720 331.110 160.720 ;
     END
   END clk
   PIN ena
@@ -101,16 +101,16 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 320.170 159.720 320.470 160.720 ;
+        RECT 338.090 159.720 338.390 160.720 ;
     END
   END ena
   PIN rst_n
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
+    ANTENNAGATEAREA 1.102000 ;
     PORT
       LAYER Metal4 ;
-        RECT 305.610 159.720 305.910 160.720 ;
+        RECT 323.530 159.720 323.830 160.720 ;
     END
   END rst_n
   PIN ui_in[0]
@@ -119,7 +119,7 @@ MACRO tt_um_urish_simon
     ANTENNAGATEAREA 1.102000 ;
     PORT
       LAYER Metal4 ;
-        RECT 298.330 159.720 298.630 160.720 ;
+        RECT 316.250 159.720 316.550 160.720 ;
     END
   END ui_in[0]
   PIN ui_in[1]
@@ -128,7 +128,7 @@ MACRO tt_um_urish_simon
     ANTENNAGATEAREA 0.726000 ;
     PORT
       LAYER Metal4 ;
-        RECT 291.050 159.720 291.350 160.720 ;
+        RECT 308.970 159.720 309.270 160.720 ;
     END
   END ui_in[1]
   PIN ui_in[2]
@@ -137,7 +137,7 @@ MACRO tt_um_urish_simon
     ANTENNAGATEAREA 1.102000 ;
     PORT
       LAYER Metal4 ;
-        RECT 283.770 159.720 284.070 160.720 ;
+        RECT 301.690 159.720 301.990 160.720 ;
     END
   END ui_in[2]
   PIN ui_in[3]
@@ -146,7 +146,7 @@ MACRO tt_um_urish_simon
     ANTENNAGATEAREA 0.498500 ;
     PORT
       LAYER Metal4 ;
-        RECT 276.490 159.720 276.790 160.720 ;
+        RECT 294.410 159.720 294.710 160.720 ;
     END
   END ui_in[3]
   PIN ui_in[4]
@@ -155,7 +155,7 @@ MACRO tt_um_urish_simon
     ANTENNAGATEAREA 1.183000 ;
     PORT
       LAYER Metal4 ;
-        RECT 269.210 159.720 269.510 160.720 ;
+        RECT 287.130 159.720 287.430 160.720 ;
     END
   END ui_in[4]
   PIN ui_in[5]
@@ -163,7 +163,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 261.930 159.720 262.230 160.720 ;
+        RECT 279.850 159.720 280.150 160.720 ;
     END
   END ui_in[5]
   PIN ui_in[6]
@@ -171,16 +171,16 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 254.650 159.720 254.950 160.720 ;
+        RECT 272.570 159.720 272.870 160.720 ;
     END
   END ui_in[6]
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.498500 ;
+    ANTENNAGATEAREA 0.396000 ;
     PORT
       LAYER Metal4 ;
-        RECT 247.370 159.720 247.670 160.720 ;
+        RECT 265.290 159.720 265.590 160.720 ;
     END
   END ui_in[7]
   PIN uio_in[0]
@@ -188,7 +188,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 240.090 159.720 240.390 160.720 ;
+        RECT 258.010 159.720 258.310 160.720 ;
     END
   END uio_in[0]
   PIN uio_in[1]
@@ -196,7 +196,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 232.810 159.720 233.110 160.720 ;
+        RECT 250.730 159.720 251.030 160.720 ;
     END
   END uio_in[1]
   PIN uio_in[2]
@@ -204,7 +204,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 225.530 159.720 225.830 160.720 ;
+        RECT 243.450 159.720 243.750 160.720 ;
     END
   END uio_in[2]
   PIN uio_in[3]
@@ -212,7 +212,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 218.250 159.720 218.550 160.720 ;
+        RECT 236.170 159.720 236.470 160.720 ;
     END
   END uio_in[3]
   PIN uio_in[4]
@@ -220,7 +220,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 210.970 159.720 211.270 160.720 ;
+        RECT 228.890 159.720 229.190 160.720 ;
     END
   END uio_in[4]
   PIN uio_in[5]
@@ -228,7 +228,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 203.690 159.720 203.990 160.720 ;
+        RECT 221.610 159.720 221.910 160.720 ;
     END
   END uio_in[5]
   PIN uio_in[6]
@@ -236,7 +236,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 196.410 159.720 196.710 160.720 ;
+        RECT 214.330 159.720 214.630 160.720 ;
     END
   END uio_in[6]
   PIN uio_in[7]
@@ -244,7 +244,7 @@ MACRO tt_um_urish_simon
     USE SIGNAL ;
     PORT
       LAYER Metal4 ;
-        RECT 189.130 159.720 189.430 160.720 ;
+        RECT 207.050 159.720 207.350 160.720 ;
     END
   END uio_in[7]
   PIN uio_oe[0]
@@ -253,7 +253,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 65.370 159.720 65.670 160.720 ;
+        RECT 83.290 159.720 83.590 160.720 ;
     END
   END uio_oe[0]
   PIN uio_oe[1]
@@ -262,7 +262,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 58.090 159.720 58.390 160.720 ;
+        RECT 76.010 159.720 76.310 160.720 ;
     END
   END uio_oe[1]
   PIN uio_oe[2]
@@ -271,7 +271,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 50.810 159.720 51.110 160.720 ;
+        RECT 68.730 159.720 69.030 160.720 ;
     END
   END uio_oe[2]
   PIN uio_oe[3]
@@ -280,7 +280,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 43.530 159.720 43.830 160.720 ;
+        RECT 61.450 159.720 61.750 160.720 ;
     END
   END uio_oe[3]
   PIN uio_oe[4]
@@ -289,7 +289,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 36.250 159.720 36.550 160.720 ;
+        RECT 54.170 159.720 54.470 160.720 ;
     END
   END uio_oe[4]
   PIN uio_oe[5]
@@ -298,7 +298,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 28.970 159.720 29.270 160.720 ;
+        RECT 46.890 159.720 47.190 160.720 ;
     END
   END uio_oe[5]
   PIN uio_oe[6]
@@ -307,7 +307,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.536800 ;
     PORT
       LAYER Metal4 ;
-        RECT 21.690 159.720 21.990 160.720 ;
+        RECT 39.610 159.720 39.910 160.720 ;
     END
   END uio_oe[6]
   PIN uio_oe[7]
@@ -316,7 +316,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.360800 ;
     PORT
       LAYER Metal4 ;
-        RECT 14.410 159.720 14.710 160.720 ;
+        RECT 32.330 159.720 32.630 160.720 ;
     END
   END uio_oe[7]
   PIN uio_out[0]
@@ -325,7 +325,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 123.610 159.720 123.910 160.720 ;
+        RECT 141.530 159.720 141.830 160.720 ;
     END
   END uio_out[0]
   PIN uio_out[1]
@@ -334,7 +334,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 116.330 159.720 116.630 160.720 ;
+        RECT 134.250 159.720 134.550 160.720 ;
     END
   END uio_out[1]
   PIN uio_out[2]
@@ -343,7 +343,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 109.050 159.720 109.350 160.720 ;
+        RECT 126.970 159.720 127.270 160.720 ;
     END
   END uio_out[2]
   PIN uio_out[3]
@@ -352,7 +352,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 101.770 159.720 102.070 160.720 ;
+        RECT 119.690 159.720 119.990 160.720 ;
     END
   END uio_out[3]
   PIN uio_out[4]
@@ -361,7 +361,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 94.490 159.720 94.790 160.720 ;
+        RECT 112.410 159.720 112.710 160.720 ;
     END
   END uio_out[4]
   PIN uio_out[5]
@@ -370,7 +370,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 87.210 159.720 87.510 160.720 ;
+        RECT 105.130 159.720 105.430 160.720 ;
     END
   END uio_out[5]
   PIN uio_out[6]
@@ -379,7 +379,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 79.930 159.720 80.230 160.720 ;
+        RECT 97.850 159.720 98.150 160.720 ;
     END
   END uio_out[6]
   PIN uio_out[7]
@@ -388,7 +388,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 0.360800 ;
     PORT
       LAYER Metal4 ;
-        RECT 72.650 159.720 72.950 160.720 ;
+        RECT 90.570 159.720 90.870 160.720 ;
     END
   END uio_out[7]
   PIN uo_out[0]
@@ -398,7 +398,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 2.604400 ;
     PORT
       LAYER Metal4 ;
-        RECT 181.850 159.720 182.150 160.720 ;
+        RECT 199.770 159.720 200.070 160.720 ;
     END
   END uo_out[0]
   PIN uo_out[1]
@@ -408,7 +408,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 2.604400 ;
     PORT
       LAYER Metal4 ;
-        RECT 174.570 159.720 174.870 160.720 ;
+        RECT 192.490 159.720 192.790 160.720 ;
     END
   END uo_out[1]
   PIN uo_out[2]
@@ -418,7 +418,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 2.604400 ;
     PORT
       LAYER Metal4 ;
-        RECT 167.290 159.720 167.590 160.720 ;
+        RECT 185.210 159.720 185.510 160.720 ;
     END
   END uo_out[2]
   PIN uo_out[3]
@@ -428,7 +428,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 2.604400 ;
     PORT
       LAYER Metal4 ;
-        RECT 160.010 159.720 160.310 160.720 ;
+        RECT 177.930 159.720 178.230 160.720 ;
     END
   END uo_out[3]
   PIN uo_out[4]
@@ -437,7 +437,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.986000 ;
     PORT
       LAYER Metal4 ;
-        RECT 152.730 159.720 153.030 160.720 ;
+        RECT 170.650 159.720 170.950 160.720 ;
     END
   END uo_out[4]
   PIN uo_out[5]
@@ -446,7 +446,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 145.450 159.720 145.750 160.720 ;
+        RECT 163.370 159.720 163.670 160.720 ;
     END
   END uo_out[5]
   PIN uo_out[6]
@@ -455,7 +455,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.060800 ;
     PORT
       LAYER Metal4 ;
-        RECT 138.170 159.720 138.470 160.720 ;
+        RECT 156.090 159.720 156.390 160.720 ;
     END
   END uo_out[6]
   PIN uo_out[7]
@@ -464,7 +464,7 @@ MACRO tt_um_urish_simon
     ANTENNADIFFAREA 1.986000 ;
     PORT
       LAYER Metal4 ;
-        RECT 130.890 159.720 131.190 160.720 ;
+        RECT 148.810 159.720 149.110 160.720 ;
     END
   END uo_out[7]
   OBS
@@ -551,57 +551,55 @@ MACRO tt_um_urish_simon
       LAYER Metal1 ;
         RECT 3.360 3.620 343.280 157.100 ;
       LAYER Metal2 ;
-        RECT 15.260 0.090 345.940 160.630 ;
+        RECT 19.020 2.330 346.500 160.630 ;
       LAYER Metal3 ;
-        RECT 14.370 0.140 345.990 160.580 ;
+        RECT 18.970 1.820 346.550 160.580 ;
       LAYER Metal4 ;
-        RECT 15.010 159.420 21.390 160.070 ;
-        RECT 22.290 159.420 28.670 160.070 ;
-        RECT 29.570 159.420 35.950 160.070 ;
-        RECT 36.850 159.420 43.230 160.070 ;
-        RECT 44.130 159.420 50.510 160.070 ;
-        RECT 51.410 159.420 57.790 160.070 ;
-        RECT 58.690 159.420 65.070 160.070 ;
-        RECT 65.970 159.420 72.350 160.070 ;
-        RECT 73.250 159.420 79.630 160.070 ;
-        RECT 80.530 159.420 86.910 160.070 ;
-        RECT 87.810 159.420 94.190 160.070 ;
-        RECT 95.090 159.420 101.470 160.070 ;
-        RECT 102.370 159.420 108.750 160.070 ;
-        RECT 109.650 159.420 116.030 160.070 ;
-        RECT 116.930 159.420 123.310 160.070 ;
-        RECT 124.210 159.420 130.590 160.070 ;
-        RECT 131.490 159.420 137.870 160.070 ;
-        RECT 138.770 159.420 145.150 160.070 ;
-        RECT 146.050 159.420 152.430 160.070 ;
-        RECT 153.330 159.420 159.710 160.070 ;
-        RECT 160.610 159.420 166.990 160.070 ;
-        RECT 167.890 159.420 174.270 160.070 ;
-        RECT 175.170 159.420 181.550 160.070 ;
-        RECT 182.450 159.420 188.830 160.070 ;
-        RECT 189.730 159.420 196.110 160.070 ;
-        RECT 197.010 159.420 203.390 160.070 ;
-        RECT 204.290 159.420 210.670 160.070 ;
-        RECT 211.570 159.420 217.950 160.070 ;
-        RECT 218.850 159.420 225.230 160.070 ;
-        RECT 226.130 159.420 232.510 160.070 ;
-        RECT 233.410 159.420 239.790 160.070 ;
-        RECT 240.690 159.420 247.070 160.070 ;
-        RECT 247.970 159.420 254.350 160.070 ;
-        RECT 255.250 159.420 261.630 160.070 ;
-        RECT 262.530 159.420 268.910 160.070 ;
-        RECT 269.810 159.420 276.190 160.070 ;
-        RECT 277.090 159.420 283.470 160.070 ;
-        RECT 284.370 159.420 290.750 160.070 ;
-        RECT 291.650 159.420 298.030 160.070 ;
-        RECT 298.930 159.420 305.310 160.070 ;
-        RECT 306.210 159.420 312.590 160.070 ;
-        RECT 313.490 159.420 319.870 160.070 ;
-        RECT 320.770 159.420 343.700 160.070 ;
-        RECT 14.420 157.400 343.700 159.420 ;
-        RECT 14.420 3.320 18.580 157.400 ;
-        RECT 20.780 3.320 21.880 157.400 ;
-        RECT 24.080 3.320 57.450 157.400 ;
+        RECT 32.930 159.420 39.310 159.890 ;
+        RECT 40.210 159.420 46.590 159.890 ;
+        RECT 47.490 159.420 53.870 159.890 ;
+        RECT 54.770 159.420 61.150 159.890 ;
+        RECT 62.050 159.420 68.430 159.890 ;
+        RECT 69.330 159.420 75.710 159.890 ;
+        RECT 76.610 159.420 82.990 159.890 ;
+        RECT 83.890 159.420 90.270 159.890 ;
+        RECT 91.170 159.420 97.550 159.890 ;
+        RECT 98.450 159.420 104.830 159.890 ;
+        RECT 105.730 159.420 112.110 159.890 ;
+        RECT 113.010 159.420 119.390 159.890 ;
+        RECT 120.290 159.420 126.670 159.890 ;
+        RECT 127.570 159.420 133.950 159.890 ;
+        RECT 134.850 159.420 141.230 159.890 ;
+        RECT 142.130 159.420 148.510 159.890 ;
+        RECT 149.410 159.420 155.790 159.890 ;
+        RECT 156.690 159.420 163.070 159.890 ;
+        RECT 163.970 159.420 170.350 159.890 ;
+        RECT 171.250 159.420 177.630 159.890 ;
+        RECT 178.530 159.420 184.910 159.890 ;
+        RECT 185.810 159.420 192.190 159.890 ;
+        RECT 193.090 159.420 199.470 159.890 ;
+        RECT 200.370 159.420 206.750 159.890 ;
+        RECT 207.650 159.420 214.030 159.890 ;
+        RECT 214.930 159.420 221.310 159.890 ;
+        RECT 222.210 159.420 228.590 159.890 ;
+        RECT 229.490 159.420 235.870 159.890 ;
+        RECT 236.770 159.420 243.150 159.890 ;
+        RECT 244.050 159.420 250.430 159.890 ;
+        RECT 251.330 159.420 257.710 159.890 ;
+        RECT 258.610 159.420 264.990 159.890 ;
+        RECT 265.890 159.420 272.270 159.890 ;
+        RECT 273.170 159.420 279.550 159.890 ;
+        RECT 280.450 159.420 286.830 159.890 ;
+        RECT 287.730 159.420 294.110 159.890 ;
+        RECT 295.010 159.420 301.390 159.890 ;
+        RECT 302.290 159.420 308.670 159.890 ;
+        RECT 309.570 159.420 315.950 159.890 ;
+        RECT 316.850 159.420 323.230 159.890 ;
+        RECT 324.130 159.420 330.510 159.890 ;
+        RECT 331.410 159.420 337.790 159.890 ;
+        RECT 338.690 159.420 341.460 159.890 ;
+        RECT 32.340 157.400 341.460 159.420 ;
+        RECT 32.340 3.320 57.450 157.400 ;
         RECT 59.650 3.320 60.750 157.400 ;
         RECT 62.950 3.320 96.320 157.400 ;
         RECT 98.520 3.320 99.620 157.400 ;
@@ -617,8 +615,8 @@ MACRO tt_um_urish_simon
         RECT 292.870 3.320 293.970 157.400 ;
         RECT 296.170 3.320 329.540 157.400 ;
         RECT 331.740 3.320 332.840 157.400 ;
-        RECT 335.040 3.320 343.700 157.400 ;
-        RECT 14.420 0.090 343.700 3.320 ;
+        RECT 335.040 3.320 341.460 157.400 ;
+        RECT 32.340 1.770 341.460 3.320 ;
   END
 END tt_um_urish_simon
 END LIBRARY
