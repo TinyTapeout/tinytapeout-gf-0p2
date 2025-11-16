@@ -40,8 +40,9 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-24.04
     env:
+      PDK: 'gf180mcuD'
       PDK_ROOT: '/home/runner/pdk'
-      PDK_VERSION: 'e0f692f46654d6c7c99fc70a0c94a080dab53571'
+      PDK_VERSION: 'ff08c23db8359afce3f134c454e7930586d0641c'
     steps:
       - name: checkout repo
         uses: actions/checkout@v4
@@ -59,10 +60,10 @@ jobs:
         working-directory: tt/precheck
         run: pip install -r requirements.txt
 
-      - name: Install Sky130 PDK
+      - name: Install ${{ env.PDK }} PDK
         uses: TinyTapeout/ciel-action@v1
         with:
-          pdk_name: sky130
+          pdk_name: ${{ env.PDK }}
           pdk_version: ${{ env.PDK_VERSION }}
           pdk_root: ${{ env.PDK_ROOT }}
 
@@ -91,7 +92,7 @@ jobs:
           OAS_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for oas_file in $OAS_FILES; do
-            nix-shell --run "python precheck.py --gds ${{ github.workspace }}/${oas_file} --tech gf180mcuD"
+            nix-shell --run "python precheck.py --gds ${{ github.workspace }}/${oas_file} --tech ${{ env.PDK }}"
           done
 
       - name: Test Summary
