@@ -1,0 +1,50 @@
+156. Printing statistics.
+
+=== tt_um_gf0p2_faust_top ===
+
+   Number of wires:               8470
+   Number of wire bits:           8505
+   Number of public wires:        1179
+   Number of public wire bits:    1214
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8486
+     gf180mcu_fd_sc_mcu7t5v0__and2_1    238
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     39
+     gf180mcu_fd_sc_mcu7t5v0__and4_1     45
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     66
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    455
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1      3
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     57
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    337
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1   1179
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2    316
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1   2226
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1    284
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1    116
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    584
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     87
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1      5
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     38
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    851
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1      3
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1     67
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1     86
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1     18
+     gf180mcu_fd_sc_mcu7t5v0__oai33_1      1
+     gf180mcu_fd_sc_mcu7t5v0__or2_1    159
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     30
+     gf180mcu_fd_sc_mcu7t5v0__or4_1     11
+     gf180mcu_fd_sc_mcu7t5v0__tieh      1
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1    276
+     gf180mcu_fd_sc_mcu7t5v0__xnor3_1     72
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1    593
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1    227
+
+   Chip area for module '\tt_um_gf0p2_faust_top': 208153.254400
+     of which used for sequential elements: 75056.083200 (36.06%)
+
