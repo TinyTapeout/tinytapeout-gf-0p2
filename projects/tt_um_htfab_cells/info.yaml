@@ -48,7 +48,7 @@ pinout:
   uio[0]: "input bit 3"
   uio[1]: "input bit 4"
   uio[2]: "input bit 5"
-  uio[3]: ""
+  uio[3]: "enable tristate cells"
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
