@@ -1,0 +1,51 @@
+150. Printing statistics.
+
+=== tt_um_rejunity_vga_test01 ===
+
+   Number of wires:               3351
+   Number of wire bits:           3386
+   Number of public wires:         269
+   Number of public wire bits:     304
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3367
+     gf180mcu_fd_sc_mcu9t5v0__and2_1    107
+     gf180mcu_fd_sc_mcu9t5v0__and3_1     27
+     gf180mcu_fd_sc_mcu9t5v0__and4_1      8
+     gf180mcu_fd_sc_mcu9t5v0__aoi211_1     28
+     gf180mcu_fd_sc_mcu9t5v0__aoi21_1    225
+     gf180mcu_fd_sc_mcu9t5v0__aoi221_1     32
+     gf180mcu_fd_sc_mcu9t5v0__aoi22_1     81
+     gf180mcu_fd_sc_mcu9t5v0__buf_1      8
+     gf180mcu_fd_sc_mcu9t5v0__clkinv_1    218
+     gf180mcu_fd_sc_mcu9t5v0__dffq_1    204
+     gf180mcu_fd_sc_mcu9t5v0__mux2_1     22
+     gf180mcu_fd_sc_mcu9t5v0__nand2_1    719
+     gf180mcu_fd_sc_mcu9t5v0__nand3_1    114
+     gf180mcu_fd_sc_mcu9t5v0__nand4_1     22
+     gf180mcu_fd_sc_mcu9t5v0__nor2_1    341
+     gf180mcu_fd_sc_mcu9t5v0__nor3_1     64
+     gf180mcu_fd_sc_mcu9t5v0__nor4_1     19
+     gf180mcu_fd_sc_mcu9t5v0__oai211_1     52
+     gf180mcu_fd_sc_mcu9t5v0__oai21_1    217
+     gf180mcu_fd_sc_mcu9t5v0__oai221_1     13
+     gf180mcu_fd_sc_mcu9t5v0__oai222_1      2
+     gf180mcu_fd_sc_mcu9t5v0__oai22_1     79
+     gf180mcu_fd_sc_mcu9t5v0__oai31_1     25
+     gf180mcu_fd_sc_mcu9t5v0__oai32_1     11
+     gf180mcu_fd_sc_mcu9t5v0__oai33_1      4
+     gf180mcu_fd_sc_mcu9t5v0__or2_1     54
+     gf180mcu_fd_sc_mcu9t5v0__or3_1      8
+     gf180mcu_fd_sc_mcu9t5v0__or4_1      2
+     gf180mcu_fd_sc_mcu9t5v0__tieh      8
+     gf180mcu_fd_sc_mcu9t5v0__xnor2_1    319
+     gf180mcu_fd_sc_mcu9t5v0__xnor3_1    116
+     gf180mcu_fd_sc_mcu9t5v0__xor2_1    200
+     gf180mcu_fd_sc_mcu9t5v0__xor3_1     18
+
+   Chip area for module '\tt_um_rejunity_vga_test01': 90853.056000
+     of which used for sequential elements: 16121.548800 (17.74%)
+
