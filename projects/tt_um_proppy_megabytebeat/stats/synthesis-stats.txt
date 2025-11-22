@@ -1,0 +1,53 @@
+135. Printing statistics.
+
+=== tt_um_proppy_megabytebeat ===
+
+   Number of wires:               8009
+   Number of wire bits:           8044
+   Number of public wires:         331
+   Number of public wire bits:     366
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8025
+     gf180mcu_fd_sc_mcu7t5v0__and2_1    350
+     gf180mcu_fd_sc_mcu7t5v0__and3_1    153
+     gf180mcu_fd_sc_mcu7t5v0__and4_1     64
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1    132
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    754
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1     61
+     gf180mcu_fd_sc_mcu7t5v0__aoi222_1      2
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1    122
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      5
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    467
+     gf180mcu_fd_sc_mcu7t5v0__dffnq_1    270
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1     53
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2    307
+     gf180mcu_fd_sc_mcu7t5v0__mux4_1     52
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1   1187
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1    289
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1    112
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    900
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1    246
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1     88
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1    119
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    602
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1     36
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1     43
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1    141
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1     21
+     gf180mcu_fd_sc_mcu7t5v0__oai33_1      4
+     gf180mcu_fd_sc_mcu7t5v0__or2_1    268
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     89
+     gf180mcu_fd_sc_mcu7t5v0__or4_1     70
+     gf180mcu_fd_sc_mcu7t5v0__tiel     19
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1    171
+     gf180mcu_fd_sc_mcu7t5v0__xnor3_1      5
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1    724
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1     99
+
+   Chip area for module '\tt_um_proppy_megabytebeat': 165057.088000
+     of which used for sequential elements: 21155.142400 (12.82%)
+
