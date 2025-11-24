@@ -20,6 +20,8 @@ It's expected that at the faster ring oscillator speeds, the counter will reach 
 
 ## How to test
 
+Set `clksel2[1:0]` to 0.
+
 Set `clksel[3:0]` to (say) 10, or anything greater than 1.
 
 Set `mode[1:0]` to 0 (though these are unused at the time of writing; TBA).
@@ -32,7 +34,39 @@ Supply a 25MHz clock to the system `clk`, and assert reset for at least 2 clocks
 
 Expect to see vertical coloured bars on screen, but expect some jitter. Their width should increase as you increase `clksel`.
 
-Measure the ring oscillator on `uio_out[7:4]` -- `uio_out[4]` is the raw oscillator output, and the higher bits are it divided by powers of 2.
+Measure the ring oscillator (or rather, the selected clock source) on `uio_out[7:4]`: `uio_out[4]` is the raw oscillator output, and the higher bits are the oscillator divided by powers of 2.
+
+More testing notes:
+
+*   When `vga_mode==1`, `clk` should be 26.6175MHz ([106.47 MHz](http://www.tinyvga.com/vga-timing/1440x900@60Hz) &div; 4) to drive a 1440x900 60Hz VGA display.
+
+*   When `clksel2` is:
+
+    *   0: Just rely on `clksel`.
+    *   1: Use fixed 5-deep inv_1 ring oscillator.
+    *   2: Use fixed 5-deep inv_4 ring oscillator.
+    *   3: Use inverted `clk`.
+    *   NOTE: options 1 and 2 require `clksel > 1` (any value will do) to enable the rings.
+
+*   When `clksel2==0` and `clksel` is:
+
+    *   0: Use `clk`.
+    *   1: Use `altclk`.
+    *   For values 2 and above, use an inv_2-based ring oscillator tapped at...
+    *   2: => 3
+    *   3: => 5
+    *   4: => 7
+    *   5: => 9
+    *   6: => 13
+    *   7: => 17
+    *   8: => 21
+    *   9: => 25
+    *   10: => 33
+    *   11: => 41
+    *   12: => 49
+    *   13: => 65
+    *   14: => 97
+    *   15: => 161
 
 
 ## External hardware

@@ -48,8 +48,8 @@ pinout:
   uo[7]: "hsync"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
+  uio[0]: "IN: clksel2[0]"
+  uio[1]: "IN: clksel2[1]"
   uio[2]: ""
   uio[3]: ""
   uio[4]: "OUT: osc"    # Raw ring osc (full speed).
