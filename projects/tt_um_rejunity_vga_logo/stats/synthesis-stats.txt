@@ -1,49 +1,51 @@
-126. Printing statistics.
+123. Printing statistics.
 
 === tt_um_rejunity_vga_logo ===
 
-   Number of wires:                822
-   Number of wire bits:            857
-   Number of public wires:          75
-   Number of public wire bits:     110
+   Number of wires:                968
+   Number of wire bits:           1003
+   Number of public wires:          95
+   Number of public wire bits:     130
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                838
-     gf180mcu_fd_sc_mcu7t5v0__and2_1     31
-     gf180mcu_fd_sc_mcu7t5v0__and3_1     10
-     gf180mcu_fd_sc_mcu7t5v0__and4_1      4
-     gf180mcu_fd_sc_mcu7t5v0__aoi211_1      3
-     gf180mcu_fd_sc_mcu7t5v0__aoi21_1     75
-     gf180mcu_fd_sc_mcu7t5v0__aoi221_1      5
-     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     14
+   Number of cells:                984
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     33
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     16
+     gf180mcu_fd_sc_mcu7t5v0__and4_1      2
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1      9
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1     90
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1     11
+     gf180mcu_fd_sc_mcu7t5v0__aoi222_1      3
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     19
      gf180mcu_fd_sc_mcu7t5v0__buf_1      2
-     gf180mcu_fd_sc_mcu7t5v0__clkinv_1     42
-     gf180mcu_fd_sc_mcu7t5v0__dffq_1     67
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1     60
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1     87
      gf180mcu_fd_sc_mcu7t5v0__mux2_2      3
-     gf180mcu_fd_sc_mcu7t5v0__nand2_1    124
-     gf180mcu_fd_sc_mcu7t5v0__nand3_1     49
-     gf180mcu_fd_sc_mcu7t5v0__nand4_1     10
-     gf180mcu_fd_sc_mcu7t5v0__nor2_1     80
-     gf180mcu_fd_sc_mcu7t5v0__nor3_1     22
-     gf180mcu_fd_sc_mcu7t5v0__nor4_1      9
-     gf180mcu_fd_sc_mcu7t5v0__oai211_1      9
-     gf180mcu_fd_sc_mcu7t5v0__oai21_1     76
-     gf180mcu_fd_sc_mcu7t5v0__oai221_1      3
-     gf180mcu_fd_sc_mcu7t5v0__oai22_1     14
-     gf180mcu_fd_sc_mcu7t5v0__oai31_1      2
-     gf180mcu_fd_sc_mcu7t5v0__oai32_1     13
-     gf180mcu_fd_sc_mcu7t5v0__or2_1     22
-     gf180mcu_fd_sc_mcu7t5v0__or3_1     12
-     gf180mcu_fd_sc_mcu7t5v0__or4_1      3
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1    127
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1     27
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1      9
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    114
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     28
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1     13
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     17
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1     80
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1      4
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1     11
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1      7
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1      9
+     gf180mcu_fd_sc_mcu7t5v0__oai33_1      1
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     31
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     14
+     gf180mcu_fd_sc_mcu7t5v0__or4_1      5
      gf180mcu_fd_sc_mcu7t5v0__tiel     16
-     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     21
-     gf180mcu_fd_sc_mcu7t5v0__xnor3_1      8
-     gf180mcu_fd_sc_mcu7t5v0__xor2_1     67
-     gf180mcu_fd_sc_mcu7t5v0__xor3_1     22
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     26
+     gf180mcu_fd_sc_mcu7t5v0__xnor3_1     11
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1     79
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1     20
 
-   Chip area for module '\tt_um_rejunity_vga_logo': 18424.313600
-     of which used for sequential elements: 4265.273600 (23.15%)
+   Chip area for module '\tt_um_rejunity_vga_logo': 22046.393600
+     of which used for sequential elements: 5538.489600 (25.12%)
 
