@@ -1,0 +1,61 @@
+# Tiny Tapeout project information
+project:
+  title:        "Ring osc on VGA"
+  author:       "algofoogle (Anton Maurovic)"
+  discord:      "algofoogle"
+  description:  "VGA display visualisation of a ring oscillator doing work"
+  language:     "Verilog"
+  clock_hz:     25_175_000
+
+  # How many tiles your design occupies? A single tile is about 340x160 uM.
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 3x4 or 4x4
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_algofoogle_vgaringosc"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - sync.v
+    - ring_osc.v
+    - worker.v
+    - vga_sync.v
+    - vgaringosc.v
+    - project.v
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+pinout:
+  # Inputs
+  ui[0]: "clksel[0]"  # ...
+  ui[1]: "clksel[1]"  # ...
+  ui[2]: "clksel[2]"  # ...
+  ui[3]: "clksel[3]"  # ...0=design clk, 1=altclk, 2+=select the ring length.
+  ui[4]: "altclk"     # Alternate clock source for the 'worker' (if selected, instead of ring osc)."
+  ui[5]: "mode[0]"    # ...
+  ui[6]: "mode[1]"    # ...Ring worker demo mode: 0=counter, upper 6 bits; 1=counter, gradient; 2=?, 3=?
+  ui[7]: "vga_mode"   # 0=normal 640x480@60Hz, 1=1440x900
+
+  # These are compatible with the RGB222 Tiny VGA PMOD (https://github.com/mole99/tiny-vga)
+  uo[0]: "r7"
+  uo[1]: "g7"
+  uo[2]: "b7"
+  uo[3]: "vsync"
+  uo[4]: "r6"
+  uo[5]: "g6"
+  uo[6]: "b6"
+  uo[7]: "hsync"
+
+  # Bidirectional pins
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: ""
+  uio[3]: ""
+  uio[4]: "OUT: osc"    # Raw ring osc (full speed).
+  uio[5]: "OUT: div2"   # Ring osc div-2.
+  uio[6]: "OUT: div4"   # Ring osc div-4.
+  uio[7]: "OUT: div8"   # Ring osc div-8.
+
+# Do not change!
+yaml_version: 6
