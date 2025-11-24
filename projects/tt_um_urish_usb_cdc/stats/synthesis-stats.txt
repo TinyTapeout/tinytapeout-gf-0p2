@@ -1,0 +1,55 @@
+157. Printing statistics.
+
+=== tt_um_urish_usb_cdc ===
+
+   Number of wires:               2513
+   Number of wire bits:           2548
+   Number of public wires:         446
+   Number of public wire bits:     481
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2529
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     42
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     15
+     gf180mcu_fd_sc_mcu7t5v0__and4_1     17
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     56
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    136
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1     22
+     gf180mcu_fd_sc_mcu7t5v0__aoi222_1      2
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     88
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      7
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    215
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1     48
+     gf180mcu_fd_sc_mcu7t5v0__dffrnq_1    371
+     gf180mcu_fd_sc_mcu7t5v0__dffsnq_1     12
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2     91
+     gf180mcu_fd_sc_mcu7t5v0__mux4_1     13
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1    361
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1    106
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1     34
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    257
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     66
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1     39
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     47
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    202
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1     14
+     gf180mcu_fd_sc_mcu7t5v0__oai222_1      2
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1     24
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1     41
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1     10
+     gf180mcu_fd_sc_mcu7t5v0__oai33_1      1
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     30
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     21
+     gf180mcu_fd_sc_mcu7t5v0__or4_1     20
+     gf180mcu_fd_sc_mcu7t5v0__tieh      2
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     12
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1     82
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1      7
+
+   Chip area for module '\tt_um_urish_usb_cdc': 68029.248000
+     of which used for sequential elements: 31694.297600 (46.59%)
+
