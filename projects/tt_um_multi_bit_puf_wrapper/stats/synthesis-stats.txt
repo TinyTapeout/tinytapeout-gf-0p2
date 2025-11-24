@@ -1,0 +1,29 @@
+106. Printing statistics.
+
+=== tt_um_multi_bit_puf_wrapper ===
+
+   Number of wires:                849
+   Number of wire bits:            884
+   Number of public wires:         264
+   Number of public wire bits:     299
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                865
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      9
+     gf180mcu_fd_sc_mcu7t5v0__dffrnq_1      8
+     gf180mcu_fd_sc_mcu7t5v0__latq_1    256
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2      8
+     gf180mcu_fd_sc_mcu7t5v0__mux4_1     32
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1      8
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    256
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1      8
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1      8
+     gf180mcu_fd_sc_mcu7t5v0__or2_1    256
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+
+   Chip area for module '\tt_um_multi_bit_puf_wrapper': 22838.860800
+     of which used for sequential elements: 597.094400 (2.61%)
+
