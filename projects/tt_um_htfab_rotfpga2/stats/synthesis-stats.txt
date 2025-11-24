@@ -1,0 +1,38 @@
+114. Printing statistics.
+
+=== tt_um_htfab_rotfpga2 ===
+
+   Number of wires:               2031
+   Number of wire bits:           2066
+   Number of public wires:         336
+   Number of public wire bits:     371
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2047
+     gf180mcu_fd_sc_mcu7t5v0__and2_1    129
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     28
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    112
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1      4
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      9
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    213
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1     64
+     gf180mcu_fd_sc_mcu7t5v0__latq_1    256
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2    504
+     gf180mcu_fd_sc_mcu7t5v0__mux4_1      4
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1     74
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1     36
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1     51
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     28
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    368
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1     16
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1     60
+     gf180mcu_fd_sc_mcu7t5v0__or2_1     76
+     gf180mcu_fd_sc_mcu7t5v0__tieh      1
+     gf180mcu_fd_sc_mcu7t5v0__tiel     14
+
+   Chip area for module '\tt_um_htfab_rotfpga2': 51574.028800
+     of which used for sequential elements: 4074.291200 (7.90%)
+
