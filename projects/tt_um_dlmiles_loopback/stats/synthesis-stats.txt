@@ -1,0 +1,29 @@
+111. Printing statistics.
+
+=== tt_um_dlmiles_loopback ===
+
+   Number of wires:                 40
+   Number of wire bits:             75
+   Number of public wires:          21
+   Number of public wire bits:      56
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 56
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1      2
+     gf180mcu_fd_sc_mcu7t5v0__buf_1     19
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      1
+     gf180mcu_fd_sc_mcu7t5v0__dffnq_1      1
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1      1
+     gf180mcu_fd_sc_mcu7t5v0__dffrnq_1      9
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2     14
+     gf180mcu_fd_sc_mcu7t5v0__mux4_1      4
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1      1
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1      3
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1      1
+
+   Chip area for module '\tt_um_dlmiles_loopback': 1922.995200
+     of which used for sequential elements: 801.248000 (41.67%)
+
