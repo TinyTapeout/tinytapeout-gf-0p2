@@ -1,0 +1,26 @@
+96. Printing statistics.
+
+=== tt_um_dlmiles_ddr_throughput_test ===
+
+   Number of wires:                 74
+   Number of wire bits:            109
+   Number of public wires:          74
+   Number of public wire bits:     109
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 90
+     gf180mcu_fd_sc_mcu7t5v0__and2_2      8
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      6
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1      9
+     gf180mcu_fd_sc_mcu7t5v0__dffrnq_1      5
+     gf180mcu_fd_sc_mcu7t5v0__inv_2     40
+     gf180mcu_fd_sc_mcu7t5v0__or2_2      4
+     gf180mcu_fd_sc_mcu7t5v0__tieh      2
+     gf180mcu_fd_sc_mcu7t5v0__tiel     16
+
+   Chip area for module '\tt_um_dlmiles_ddr_throughput_test': 1462.003200
+     of which used for sequential elements: 373.184000 (25.53%)
+
