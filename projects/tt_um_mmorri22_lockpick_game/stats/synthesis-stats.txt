@@ -1,0 +1,50 @@
+140. Printing statistics.
+
+=== tt_um_mmorri22_lockpick_game ===
+
+   Number of wires:               2322
+   Number of wire bits:           2357
+   Number of public wires:         541
+   Number of public wire bits:     576
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2338
+     gf180mcu_fd_sc_mcu7t5v0__and2_1     11
+     gf180mcu_fd_sc_mcu7t5v0__and3_1      2
+     gf180mcu_fd_sc_mcu7t5v0__and4_1      5
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1     14
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1    248
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1     26
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1     59
+     gf180mcu_fd_sc_mcu7t5v0__buf_1      8
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    124
+     gf180mcu_fd_sc_mcu7t5v0__dffq_1    526
+     gf180mcu_fd_sc_mcu7t5v0__dffrnq_1     17
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2     94
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1    436
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1     58
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1     30
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    153
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1     18
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1     12
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1     17
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1    267
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1      9
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1     12
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1      3
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1      2
+     gf180mcu_fd_sc_mcu7t5v0__or2_1      5
+     gf180mcu_fd_sc_mcu7t5v0__or3_1      3
+     gf180mcu_fd_sc_mcu7t5v0__or4_1      5
+     gf180mcu_fd_sc_mcu7t5v0__tieh      4
+     gf180mcu_fd_sc_mcu7t5v0__tiel      2
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1     32
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1    133
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1      3
+
+   Chip area for module '\tt_um_mmorri22_lockpick_game': 65315.980800
+     of which used for sequential elements: 34754.406400 (53.21%)
+
