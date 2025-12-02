@@ -43,10 +43,8 @@ As such, the MAC unit performs an additional clamping function $clamp_{i8}$ that
 ![Equation 2](equation_2.svg)
 
 Our final full MAC operation is as follows : 
+
 ![Equation 3](equation_3.svg)
-```math
-c_{(t,x,y)} = clamp_{i8}(i_{(t,y)} \times w_{(x,y)} + c_{(t-1,x,y-1)})
-```
 
 At each MAC timestep $t+1$ :
 - the result of a MAC unit $c_{(t,x,y)}$ is shifted downwards on the same column and becomes the input of the MAC unit $(x,y+1)$ below.
@@ -115,14 +113,9 @@ Configuring the weights takes 4 data transfer cycles, during which :
 #### Example 
 
 In this example we are configuring the the weight matrix $W$ to : 
+
 ![Equation 4](equation_4.svg)
-```math
-W = 
-\begin{pmatrix} 
-0 & 1 \\ 
-2 & 3 
-\end{pmatrix} 
-```
+
 ![weights configuration timing diagram](wr_weights_waves.png)
 
 #### Debug
@@ -157,14 +150,9 @@ Sending the input matrix takes 4 data transfer cycles, during which :
 #### Example
 
 In this example we are sending the the input data matrix $I$ : 
+
 ![Equation 5](equation_5.svg)
-```math
-I = 
-\begin{pmatrix} 
-4 & 5 \\ 
-6 & 7 
-\end{pmatrix} 
-```
+
 ![data configuration timing diagram](wr_data_waves.png)
 
 ### Receiving result
@@ -183,24 +171,9 @@ If the user sends a gapless, uninterupted stream of input data, and re-uses the 
 #### Simlpe example
 
 In this example the $W$ MAC weight matrix is being configured and the $I$ data is being streamed in, following which, the $R$ result starts being sent out. 
+
 ![Equation 6](equation_6.svg)
-```math
-R = I \times W = 
-\begin{pmatrix} 
-4 & 5 \\ 
-6 & 7 
-\end{pmatrix}
-\times
-\begin{pmatrix} 
-0 & 1 \\ 
-2 & 3 
-\end{pmatrix}
-=
-\begin{pmatrix} 
-10 & 19 \\ 
-14 & 27
-\end{pmatrix}
-```
+
 ![result streamout](rd_res_waves.png)
 
 #### Complex example 
