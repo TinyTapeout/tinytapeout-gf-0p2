@@ -21,35 +21,17 @@ This MAC accelerator operates at up to 50MHz and is capable of reaching up to 10
 
 The goal of the MAC accelerator is to perform a matrix matrix multiplication between the input data
 matrix $I$ and the weight matrix $W$. 
-```math
-\begin{gather}
-I \times W = R \\
-\begin{pmatrix} 
-i_{0,0} & i_{1,0} \\
- i_{0,1} & i_{1,1} 
-\end{pmatrix} 
 
-\times 
+![Equation 0](equation_0.svg)
 
-\begin{pmatrix} 
-w_{0,0} & w_{1,0} \\ 
-w_{0,1} & w_{1,1} 
-\end{pmatrix} = 
-
-\begin{pmatrix} 
-i_{0,0}w_{0,0}+i_{1,0}w_{0,1} & i_{0,0}w_{1,0}+i_{1,0}w_{1,1}\\ 
-i_{0,1}w_{0,0}+i_{1,1}w_{0,1} & i_{0,1}w_{1,0}+i_{1,1}w_{1,1}\end{pmatrix}
-\end{gather}
-```
 This MAC accelerator has 4 units and from this point on, we will refer to each MAC unit according to their unique $(x,y)$ coordinates. 
 
 Each MAC unit calculates the MAC operation $c_{(t,x,y)}$, where :
 - $w_{(x,y)}$ is the fixed weight configured for this unit; this value is fixed throughout a set of $I$ and $W$ input matrices.
 - $i_{(t,y)}$ is a value from the $y$ row of the $I$ matrix that is circulated per timestep $t$ through a row of the matrix.
 - $c_{(t-1,x,y-1)}$ is the result at the previous timestep $t-1$ of the mac unit above this MAC unit, circulated downwards per column.
-```math
-c_{(t,x,y)} = i_{(t,y)} \times w_{(x,y)} + c_{(t-1,x,y-1)}
-```
+
+![Equation 1](equation_1.svg)
 
 Given this accelerator was designed to operate on signed 8-bit integers, 
 but that the successive application of the 8-bit multiplication and addition 
@@ -57,15 +39,11 @@ pushes the resulting value up to 17 bits, in order to prevent the size of the ba
 from increasing with each successive MAC operation, we need to clamp it down back within the 8-bit range.
 
 As such, the MAC unit performs an additional clamping function $clamp_{i8}$ that remaps :
-```math
-clamp_{i8}(c_{(t,x,y)}) = \begin{cases}
-   127 &\text{if } c_{(t,x,y}) > 127\\
-   c_{(t,x,y)} &\text{if } c_{(t,x,y)} \in [-128,127] \\
-    -128 &\text{if } c_{(t,x,y}) < -128\\
-\end{cases}
-```
+
+![Equation 2](equation_2.svg)
 
 Our final full MAC operation is as follows : 
+![Equation 3](equation_3.svg)
 ```math
 c_{(t,x,y)} = clamp_{i8}(i_{(t,y)} \times w_{(x,y)} + c_{(t-1,x,y-1)})
 ```
@@ -137,6 +115,7 @@ Configuring the weights takes 4 data transfer cycles, during which :
 #### Example 
 
 In this example we are configuring the the weight matrix $W$ to : 
+![Equation 4](equation_4.svg)
 ```math
 W = 
 \begin{pmatrix} 
@@ -178,6 +157,7 @@ Sending the input matrix takes 4 data transfer cycles, during which :
 #### Example
 
 In this example we are sending the the input data matrix $I$ : 
+![Equation 5](equation_5.svg)
 ```math
 I = 
 \begin{pmatrix} 
@@ -203,6 +183,7 @@ If the user sends a gapless, uninterupted stream of input data, and re-uses the 
 #### Simlpe example
 
 In this example the $W$ MAC weight matrix is being configured and the $I$ data is being streamed in, following which, the $R$ result starts being sent out. 
+![Equation 6](equation_6.svg)
 ```math
 R = I \times W = 
 \begin{pmatrix} 
