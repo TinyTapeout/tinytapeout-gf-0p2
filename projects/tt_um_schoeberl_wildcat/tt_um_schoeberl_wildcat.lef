@@ -255,7 +255,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN rst_n
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
+    ANTENNAGATEAREA 2.204000 ;
     PORT
       LAYER Metal4 ;
         RECT 323.810 324.360 324.110 325.360 ;
@@ -264,7 +264,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN ui_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
+    ANTENNAGATEAREA 1.102000 ;
     PORT
       LAYER Metal4 ;
         RECT 316.530 324.360 316.830 325.360 ;
@@ -273,7 +273,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN ui_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
+    ANTENNAGATEAREA 1.102000 ;
     PORT
       LAYER Metal4 ;
         RECT 309.250 324.360 309.550 325.360 ;
@@ -538,7 +538,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN uo_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 5.279000 ;
+    ANTENNADIFFAREA 4.030500 ;
     PORT
       LAYER Metal4 ;
         RECT 200.050 324.360 200.350 325.360 ;
@@ -556,7 +556,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN uo_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.071900 ;
+    ANTENNADIFFAREA 3.879200 ;
     PORT
       LAYER Metal4 ;
         RECT 185.490 324.360 185.790 325.360 ;
@@ -565,7 +565,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN uo_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 2.243600 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 178.210 324.360 178.510 325.360 ;
@@ -574,7 +574,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN uo_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 6.744200 ;
+    ANTENNADIFFAREA 5.279000 ;
     PORT
       LAYER Metal4 ;
         RECT 170.930 324.360 171.230 325.360 ;
@@ -592,7 +592,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN uo_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 5.279000 ;
+    ANTENNADIFFAREA 4.030500 ;
     PORT
       LAYER Metal4 ;
         RECT 156.370 324.360 156.670 325.360 ;
@@ -601,7 +601,7 @@ MACRO tt_um_schoeberl_wildcat
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 1.986000 ;
+    ANTENNADIFFAREA 2.365600 ;
     PORT
       LAYER Metal4 ;
         RECT 149.090 324.360 149.390 325.360 ;
@@ -775,9 +775,9 @@ MACRO tt_um_schoeberl_wildcat
       LAYER Metal1 ;
         RECT 3.360 3.620 1072.400 321.740 ;
       LAYER Metal2 ;
-        RECT 7.980 0.650 1069.830 322.470 ;
+        RECT 6.860 0.650 1069.830 324.710 ;
       LAYER Metal3 ;
-        RECT 7.930 0.140 1069.880 322.420 ;
+        RECT 6.810 0.700 1069.880 324.660 ;
       LAYER Metal4 ;
         RECT 33.210 324.060 39.590 324.360 ;
         RECT 40.490 324.060 46.870 324.360 ;
@@ -821,8 +821,8 @@ MACRO tt_um_schoeberl_wildcat
         RECT 317.130 324.060 323.510 324.360 ;
         RECT 324.410 324.060 330.790 324.360 ;
         RECT 331.690 324.060 338.070 324.360 ;
-        RECT 338.970 324.060 881.860 324.360 ;
-        RECT 32.620 322.040 881.860 324.060 ;
+        RECT 338.970 324.060 915.460 324.360 ;
+        RECT 32.620 322.040 915.460 324.060 ;
         RECT 32.620 3.320 57.450 322.040 ;
         RECT 59.650 3.320 60.750 322.040 ;
         RECT 62.950 3.320 96.320 322.040 ;
@@ -867,8 +867,9 @@ MACRO tt_um_schoeberl_wildcat
         RECT 837.050 3.320 838.150 322.040 ;
         RECT 840.350 3.320 873.720 322.040 ;
         RECT 875.920 3.320 877.020 322.040 ;
-        RECT 879.220 3.320 881.860 322.040 ;
-        RECT 32.620 0.090 881.860 3.320 ;
+        RECT 879.220 3.320 912.590 322.040 ;
+        RECT 914.790 3.320 915.460 322.040 ;
+        RECT 32.620 1.210 915.460 3.320 ;
   END
 END tt_um_schoeberl_wildcat
 END LIBRARY
