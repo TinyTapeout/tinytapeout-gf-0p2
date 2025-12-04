@@ -1,9 +1,9 @@
-191. Printing statistics.
+190. Printing statistics.
 
 === tt_um_lisa ===
 
-   Number of wires:              15354
-   Number of wire bits:          15389
+   Number of wires:              15290
+   Number of wire bits:          15325
    Number of public wires:        2566
    Number of public wire bits:    2601
    Number of ports:                  8
@@ -11,45 +11,46 @@
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:              15370
-     gf180mcu_fd_sc_mcu7t5v0__and2_1    268
-     gf180mcu_fd_sc_mcu7t5v0__and3_1     68
-     gf180mcu_fd_sc_mcu7t5v0__and4_1     43
-     gf180mcu_fd_sc_mcu7t5v0__aoi211_1    215
-     gf180mcu_fd_sc_mcu7t5v0__aoi21_1   1191
-     gf180mcu_fd_sc_mcu7t5v0__aoi221_1    233
-     gf180mcu_fd_sc_mcu7t5v0__aoi222_1    102
-     gf180mcu_fd_sc_mcu7t5v0__aoi22_1   1045
+   Number of cells:              15306
+     gf180mcu_fd_sc_mcu7t5v0__and2_1    236
+     gf180mcu_fd_sc_mcu7t5v0__and3_1     70
+     gf180mcu_fd_sc_mcu7t5v0__and4_1     35
+     gf180mcu_fd_sc_mcu7t5v0__aoi211_1    206
+     gf180mcu_fd_sc_mcu7t5v0__aoi21_1   1307
+     gf180mcu_fd_sc_mcu7t5v0__aoi221_1    229
+     gf180mcu_fd_sc_mcu7t5v0__aoi222_1    134
+     gf180mcu_fd_sc_mcu7t5v0__aoi22_1    992
      gf180mcu_fd_sc_mcu7t5v0__buf_1     50
-     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    961
+     gf180mcu_fd_sc_mcu7t5v0__clkinv_1    955
      gf180mcu_fd_sc_mcu7t5v0__dffnq_1      4
      gf180mcu_fd_sc_mcu7t5v0__dffq_1   2219
      gf180mcu_fd_sc_mcu7t5v0__dffrnq_1    215
      gf180mcu_fd_sc_mcu7t5v0__dffsnq_1      2
-     gf180mcu_fd_sc_mcu7t5v0__mux2_2    118
-     gf180mcu_fd_sc_mcu7t5v0__nand2_1   2844
-     gf180mcu_fd_sc_mcu7t5v0__nand3_1    388
-     gf180mcu_fd_sc_mcu7t5v0__nand4_1    174
-     gf180mcu_fd_sc_mcu7t5v0__nor2_1    954
-     gf180mcu_fd_sc_mcu7t5v0__nor3_1    216
-     gf180mcu_fd_sc_mcu7t5v0__nor4_1    149
-     gf180mcu_fd_sc_mcu7t5v0__oai211_1    480
-     gf180mcu_fd_sc_mcu7t5v0__oai21_1   2185
-     gf180mcu_fd_sc_mcu7t5v0__oai221_1     66
-     gf180mcu_fd_sc_mcu7t5v0__oai222_1      3
-     gf180mcu_fd_sc_mcu7t5v0__oai22_1    152
-     gf180mcu_fd_sc_mcu7t5v0__oai31_1     72
-     gf180mcu_fd_sc_mcu7t5v0__oai32_1     50
+     gf180mcu_fd_sc_mcu7t5v0__mux2_2    128
+     gf180mcu_fd_sc_mcu7t5v0__mux4_1      1
+     gf180mcu_fd_sc_mcu7t5v0__nand2_1   2828
+     gf180mcu_fd_sc_mcu7t5v0__nand3_1    371
+     gf180mcu_fd_sc_mcu7t5v0__nand4_1    161
+     gf180mcu_fd_sc_mcu7t5v0__nor2_1    929
+     gf180mcu_fd_sc_mcu7t5v0__nor3_1    214
+     gf180mcu_fd_sc_mcu7t5v0__nor4_1    160
+     gf180mcu_fd_sc_mcu7t5v0__oai211_1    417
+     gf180mcu_fd_sc_mcu7t5v0__oai21_1   2198
+     gf180mcu_fd_sc_mcu7t5v0__oai221_1     64
+     gf180mcu_fd_sc_mcu7t5v0__oai222_1      6
+     gf180mcu_fd_sc_mcu7t5v0__oai22_1    155
+     gf180mcu_fd_sc_mcu7t5v0__oai31_1     75
+     gf180mcu_fd_sc_mcu7t5v0__oai32_1     41
      gf180mcu_fd_sc_mcu7t5v0__oai33_1      1
-     gf180mcu_fd_sc_mcu7t5v0__or2_1    134
-     gf180mcu_fd_sc_mcu7t5v0__or3_1     45
-     gf180mcu_fd_sc_mcu7t5v0__or4_1     31
+     gf180mcu_fd_sc_mcu7t5v0__or2_1    145
+     gf180mcu_fd_sc_mcu7t5v0__or3_1     46
+     gf180mcu_fd_sc_mcu7t5v0__or4_1     28
      gf180mcu_fd_sc_mcu7t5v0__tieh      3
-     gf180mcu_fd_sc_mcu7t5v0__xnor2_1    123
-     gf180mcu_fd_sc_mcu7t5v0__xnor3_1      3
-     gf180mcu_fd_sc_mcu7t5v0__xor2_1    533
-     gf180mcu_fd_sc_mcu7t5v0__xor3_1     30
+     gf180mcu_fd_sc_mcu7t5v0__xnor2_1    107
+     gf180mcu_fd_sc_mcu7t5v0__xnor3_1      1
+     gf180mcu_fd_sc_mcu7t5v0__xor2_1    538
+     gf180mcu_fd_sc_mcu7t5v0__xor3_1     35
 
-   Chip area for module '\tt_um_lisa': 373818.412800
-     of which used for sequential elements: 157731.705600 (42.19%)
+   Chip area for module '\tt_um_lisa': 373067.654400
+     of which used for sequential elements: 157731.705600 (42.28%)
 
